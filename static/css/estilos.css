@@ -1,0 +1,117 @@
+body{
+    background:url(../imagenes/doct.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1{
+    background: orchid;
+    font-family: cursive;
+}
+
+
+.fr1{
+    display:flex ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    flex-direction:column;
+    align-items: center;
+    border: 10px solid rgb(7, 70, 129);
+    padding: 50px ;
+    width: 600px;
+    background: cornsilk;
+}
+
+.btn1{
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid blueviolet;
+    background: rgb(37, 233, 30);
+}
+
+.cla1{
+    display: flex;
+    color: rgb(0, 0, 0);
+
+}
+
+.label1,.cla2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+
+
+}
+
+.cla2{
+    margin-left: 20px;
+    #background: royalblue;
+    
+}
+
+.bts{
+    display: flex;
+    margin-top: 20px;
+
+
+}
+
+button{
+    color: blue;
+
+
+}
+
+input[type="button"]{
+    color: crimson;
+    background:blue;
+    border:1px solid black;
+}
+
+.menu{
+    width: 100%;
+    background: rgb(61, 193, 233);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    padding: 10px 20px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+
+.menu li a:hover{
+    background: rgb(227, 229, 230);
+    color: rgb(16, 147, 173);
+  
+}
+
+ul{
+    font-size: 50px;
+    
+}
+
+
+.menu li ul{
+    display:none;
+    position: absolute;
+    min-width: 100px;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+.menu li ul{
+    background: rgb(8, 187, 241);
+    color: rgb(227, 229, 230);
+    padding: 10px 20px;
+}

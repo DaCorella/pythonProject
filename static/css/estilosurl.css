@@ -1,0 +1,45 @@
+form{
+    width: 50%;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    left: 290px;
+    right: 400px;
+    top: 100px;
+    bottom: 400px;
+    background: url(../imagenes/esta.jpg);
+    background-size: cover;
+}
+
+label{
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+
+input , textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(2, 2, 2);
+}
+
+input:focus, textarea{
+    border: 3px solid orange;
+}
+
+.boton{
+    background: rgb(25, 229, 236);
+}
+
+input[type="submit"]:hover{
+    background: orangered;
+    cursor: pointer;
+}
+
+body{
+    background:url(../imagenes/doct.jpg);
+    background-size: cover;
+}

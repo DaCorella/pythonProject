@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script language="javascript" type="text/javascript" src="{{url_for('static',filename='js/javas.js')}}"></script>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/estilos.css')}}"/>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deber</title>
+</head>
+<body>
+    <div id="header">
+        <ul class="menu">
+            <li><a href="#">Inicio</a>
+             <ul>
+                <li><a href="#">Calcula tu altura</a></li>
+
+
+             </ul></li>
+             <li><a target="_blank" href="url/registro.html">Registro</a></li>
+             <li><a target="_blank" href="https://www.facebook.com/ElChoko-Krispis-610843642904202/">Facebook</a></li>
+             <li><a href="#">Youtube</a></li>
+             <li><a href="#">Contacto</a>
+             <ul>
+                <li><a target="_blank" href="#">04586915</a></li>
+                <li><a href="#">Fotos</a></li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+
+    <form class="fr1" id="frm">
+        <div class="cla1">  
+            <div class="label1">
+                <label class="cl1" for="nombre">Ingrese el nombre del paciente</label><br>
+                <label class="cl1" for="valor">Ingrese su peso en kg</label><br>
+                <label class="cl1" for="cantidad">Ingrese su ID </label><br>
+                <label class="cl1" for="iva">Peso en Libras</label><br>
+                <label class="cl1" for="iva">Peso en Gramos</label><br>
+                <label class="cl1" for="iva">Peso en Toneladas</label><br>
+
+            </div>
+
+            <div class="cla2">
+                <input type="text" placeholder="Escribe tu nombre" maxlength="50" name="nombre" id="nombre">
+                <input type="text" placeholder="Ingrese el valor" maxlength="50" name="valor" id="valor" onkeyup="calculo()">
+                <input type="number" placeholder="ID" maxlength="50" name="cantidad" id="cantidad" onkeyup="calculo()">
+                <input type="text" maxlength="50" name="SUBTOTAL" id="sub" disabled value="0.00">
+                <input type="text" maxlength="50" name="IVA" id="iva" disabled value="0.00">
+                <input type="text" maxlength="50" name="TOTAL A PAGAR" id="tp" disabled value="0.00">
+                
+
+
+
+
+            </div>
+
+           
+
+
+
+
+
+
+        </div>
+            <div class="bts">
+                
+                <input class="eve1" type="button" value="Mostrar Peso" onclick="calculo()"/>
+
+                
+            </div>
+            
+    </form>
+    
+</body>
+</html>

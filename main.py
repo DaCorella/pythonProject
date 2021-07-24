@@ -13,5 +13,7 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
     print("clase de GitHub")
+    print("Hello word!")
+    print("def get_Elemtari()uwu")
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
